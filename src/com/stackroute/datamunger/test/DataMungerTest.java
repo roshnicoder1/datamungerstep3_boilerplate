@@ -19,7 +19,7 @@ public class DataMungerTest {
 	private static CsvQueryProcessor reader;
 
 	@BeforeClass
-	public static void init() throws FileNotFoundException {
+	public static void init() throws IOException {
 		reader = new CsvQueryProcessor("data/ipl.csv");
 	}
 
